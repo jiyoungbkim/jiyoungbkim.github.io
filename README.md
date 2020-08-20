@@ -35,11 +35,11 @@ HTML&CSS / 초급
 
 
 ## PROJECT
-[BUEN VIAJE](detail/BuenViaje.pdf) 프로젝트 기간 2018.10.17 - 2018.10.23
+[BUEN VIAJE](detail/BuenViaje.pdf) [프로젝트 기간 2018.10.17 - 2018.10.23]
 
-[JSP WEB PAGE](detail/JSPWebPage.pdf) 프로젝트 기간 2019.10 - 2019.11
+[JSP WEB PAGE](detail/JSPWebPage.pdf) [프로젝트 기간 2019.10 - 2019.11]
 
-[JSP&SERVLET WEB PAGE](detail/ServletWebPage.pdf) 프로젝트 기간 2019.11 - 2019.12
+[JSP&SERVLET WEB PAGE](detail/ServletWebPage.pdf) [프로젝트 기간 2019.11 - 2019.12]
 
 ## EDUCATION
 
