@@ -3,13 +3,13 @@
 ## TECH SKILLS
 
 Java / 초급
-- 기본적인 메소드 구현
+- 기본 알고리즘, 자료구조 구현
 - DB연동하여 조회, 대여, 반납, 기록 시스템 구현
 - MVC Model 1 게시판 CRUD
 - MVC Model 2 게시판 Model, Service, Controller
 - 커뮤니티 사이트 프로젝트 경험
 
-Oracle SQL / 초급
+Oracle SQL, MySQL / 초급
 - 복합 조건의 조회 쿼리문
 - 게시판 테이블 생성및 관리
 - mapper 사용
@@ -22,6 +22,7 @@ Spring Framework / 초급
 - 커뮤니티 사이트 프로젝트 경험
 
 JavaScript / 초급
+- 기본 알고리즘 구현
 - 게시판 CRUD
 - 검색기능, 파일첨부
 
@@ -35,7 +36,7 @@ HTML&CSS / 초급
 
 
 ## PROJECT
-[BUEN VIAJE](detail/BuenViaje.pdf) [프로젝트 기간 2018.10.17 - 2018.10.23]
+[BUEN VIAJE](https://github.com/jiyoungbkim/BuenViaje) [프로젝트 기간 2018.10.17 - 2018.10.23]
 
 [JSP WEB PAGE](detail/JSPWebPage.pdf) [프로젝트 기간 2019.10 - 2019.11]
 
