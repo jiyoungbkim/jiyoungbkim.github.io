@@ -38,9 +38,9 @@ HTML&CSS / 초급
 ## PROJECT
 [BUEN VIAJE](https://github.com/jiyoungbkim/BuenViaje) [프로젝트 기간 2018.10.17 - 2018.10.23]
 
-[JSP WEB PAGE](detail/JSPWebPage.pdf) [프로젝트 기간 2019.10 - 2019.11]
+[Rowena Company](https://github.com/jiyoungbkim/RowenaCompany) [프로젝트 기간 2019.10 - 2019.11]
 
-[JSP&SERVLET WEB PAGE](detail/ServletWebPage.pdf) [프로젝트 기간 2019.11 - 2019.12]
+[Post Events](https://github.com/jiyoungbkim/PostEvents) [프로젝트 기간 2019.11 - 2019.12]
 
 ## EDUCATION
 
