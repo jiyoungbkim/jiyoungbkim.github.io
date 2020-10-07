@@ -1,6 +1,6 @@
 # Kim Jiyoung portfolio
 
-## TECH SKILLS
+## 🛠️ TECH SKILLS
 
 Java / 초급
 - 기본 알고리즘, 자료구조 구현
@@ -35,14 +35,14 @@ HTML&CSS / 초급
 - 디자인/레이아웃을 원하는 방향으로 수정
 
 
-## PROJECT
+## 🚢 PROJECT
 [BUEN VIAJE](https://github.com/jiyoungbkim/BuenViaje) [프로젝트 기간 2018.10.17 - 2018.10.23]
 
 [Rowena Company](https://github.com/jiyoungbkim/RowenaCompany) [프로젝트 기간 2019.10 - 2019.11]
 
 [Post Events](https://github.com/jiyoungbkim/PostEvents) [프로젝트 기간 2019.11 - 2019.12]
 
-## EDUCATION
+## 🏫 EDUCATION
 
 부스트코스
 
