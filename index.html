@@ -14,7 +14,27 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        
+    <script type="text/JavaScript">
+    window.onload = function (){
+        var today = new Date();
+        var anniversary = new Date("September 6, 2020");
+        var date = getFormatDate(today);
+        var count = today.getTime() - anniversary.getTime();
+        var count = Math.ceil(count/(24*60*60*1000));
+        var anni = document.getElementById("anni");
+        var present = document.getElementById("present");
+        anni.innerHTML = "<FONT size='6' face='FB NEO GOTHIC' color='#17b8b1'>" + count;
+        present.innerHTML = date;
+    }
+    function getFormatDate(date){
+        var year = date.getFullYear();              //yyyy
+        var month = (1 + date.getMonth());          //M
+        month = month >= 10 ? month : '0' + month;  //month 두자리로 저장
+        var day = date.getDate();                   //d
+        day = day >= 10 ? day : '0' + day;          //day 두자리로 저장
+        return  year + '.' + month + '.' + day;       //'-' 추가하여 yyyy-mm-dd 형태 생성 가능
+    }
+    </script>    
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -46,7 +66,20 @@
                     <!-- <p><strong>앞으로의 다짐</strong> : 닐스 보어가 말한 '아주 좁은 범위에서 발생할 수 있는 모든 오류를 경험한 사람'이라는 의미로서의 '전문가'로 성장하고 싶은 신입 개발자입니다. 실행해보기도 전에 오류가 발생하는 것이 두려워서 시작하지도 못하는 것보다 오류를 통해서 발전하는 개발자가 되겠습니다.</p> -->
                     <p><strong>왜 개발자인가요?</strong> : 문제를 개선하여 세상에 도움이 되면서 내가 노력하는 만큼 계속 성장할 수 있는 직업은 개발자라고 생각했습니다. 그럼 그다음은 '그렇다면 개발자는 내 적성이 맞는가?' 를 알아보는 것이 관건이었고 꿈만 꾸고 있던 개발자가 되기 위한 도전도 하지 않는다면 후회할 것 같았습니다. 하던 일을 그만두고 본격적으로 프로그래머 양성 과정 연수를 들으면서 너무 어렵기도 했지만 <strong>'이렇게 힘든데도 너무 재밌어'</strong>라는 생각을 자주 했습니다. 저는 그때 앞으로의 길을 찾았다는 확신이 들었습니다. 개발자에게 가장 필요한 자질은 끊임없이 공부할 수 있는 성실과 끈기라고 생각하며 오늘도 새로운 기술을 배울 생각에 두근두근한 저는, 오늘보다 내일 더 발전할 신입 개발자 <strong>김지영</strong>입니다.</p>
                     <!-- <p class="mb-0"><strong>필요한 자질</strong> : 총 두 번의 연수에서의 저의 목표는 <strong>출석률 100%</strong>를 지키는 것이었습니다. 1초라도 지각하면 깨지는 목표였기 때문에 연수원에 1시간씩 일찍 도착하여 공부했고 결과적으로 6개월 + 11개월의 연수 기간을 단 한 번의 지각 결석 없이 마칠 수 있었습니다. 개발자에게 가장 필요한 자질은 끊임없이 공부할 수 있는 성실과 끈기라고 생각하며 오늘도 새로운 기술을 배울 생각에 두근두근한 저는, 오늘보다 내일 더 발전할 신입 개발자 <strong>김지영</strong>입니다.</p> -->
-                    </div>
+                    </div><br>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">  
+                            <h4 class="mb-0">Github 일일 커밋 도전한지 <span id="anni" style="vertical-align: middle"></span>일</h5>
+                            <div class="mb-3">2021 일일 커밋 Topic : Algorithms-DataStructure</div>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary" style="float: right;">연속 기간</span><br>
+                            <span class="text-primary">2020.09.06 - <span id="present"></span></span><br><br>
+                        </div>
+                    </div>     
+                        <div class="col-md-12">                                
+                            <!-- <img src="assets/img/Github.png" width="100%">-->
+                        </div>                    
                     <p class="lead mb-5"></p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://github.com/jiyoungbkim" target="_blank"><i class="fab fa-github"></i></a>
@@ -200,7 +233,7 @@
                                     <span class="fa-li"><i class="fas fa-check"></i></span>github서버를 이용 github page로 포트폴리오 사이트
                                 </li>
                                 <li>
-                                    <span class="fa-li"><i class="fas fa-check"></i></span>개인 위키화를 목표로 배운 내용은 TIL에 마크다운 파일로 정리, 공부용 소스코드는 2020_Study Repository에 매일 커밋
+                                    <span class="fa-li"><i class="fas fa-check"></i></span>개인 위키화를 목표로 배운 내용은 TIL에 마크다운 파일로 정리, 공부용 소스코드는 Algorithms-DataStructure에 매일 커밋
                                 </li>
                             </ul>
                         </div>
