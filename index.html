@@ -23,7 +23,7 @@
         var count = Math.ceil(count/(24*60*60*1000));
         var anni = document.getElementById("anni");
         var present = document.getElementById("present");
-        anni.innerHTML = "<FONT size='6' face='FB NEO GOTHIC' color='#17b8b1'>" + count;
+        anni.innerHTML = "<FONT size='6' face='Apple SD Gothic Neo','FB NEO GOTHIC' color='#17b8b1'>" + count;
         present.innerHTML = date;
     }
     function getFormatDate(date){
@@ -94,6 +94,13 @@
                                 Loading data ...
                             </div>
                             <script>
+                                GitHubCalendar(".calendar", "jiyoungbkim", { responsive: true, tooltips: false, global_stats : true}).then(function() {
+                                    // delete the space underneath the module bar which is caused by minheight 
+                                    document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
+                                    // hide more and less legen below the contribution graph
+                                    document.getElementsByClassName('contrib-legend')[0].style.display = "none";
+                                    // document.getElementsByClassName('contrib-number')[0].style.fontSize = "1rem";
+                                });
                                 GitHubCalendar(".calendar", "jiyoungbkim");
                                 // or enable responsive functionality:
                                 GitHubCalendar(".calendar", "jiyoungbkim", { responsive: true });
