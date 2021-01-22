@@ -14,11 +14,27 @@
         <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <!-- Github Calender -->
-        <!-- Include the library. -->
-        <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-        <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
-        <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>     
+    <script type="text/JavaScript">
+        window.onload = function (){
+            var today = new Date();
+            var anniversary = new Date("September 6, 2020");
+            var date = getFormatDate(today);
+            var count = today.getTime() - anniversary.getTime();
+            var count = Math.ceil(count/(24*60*60*1000));
+            var anni = document.getElementById("anni");
+            var present = document.getElementById("present");
+            anni.innerHTML = "<FONT size='6' face='Apple SD Gothic Neo','FB NEO GOTHIC' color='#17b8b1'>" + count;
+            present.innerHTML = date;
+        }
+        function getFormatDate(date){
+            var year = date.getFullYear();              //yyyy
+            var month = (1 + date.getMonth());          //M
+            month = month >= 10 ? month : '0' + month;  //month 두자리로 저장
+            var day = date.getDate();                   //d
+            day = day >= 10 ? day : '0' + day;          //day 두자리로 저장
+            return  year + '.' + month + '.' + day;     //'-' 추가하여 yyyy-mm-dd 형태 생성 가능
+        }
+    </script>    
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -61,12 +77,34 @@
                             <span class="text-primary" style="float: right">2020.09.06 - <span id="present"></span></span><br><br>
                         </div>
                     </div>     
-                        <div class="col-md-12">                                                     
+                        <div class="col-md-12">    
+                            <!-- Include the library. -->
+                            <script
+                            src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+                            ></script>
+                            <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                            <link
+                            rel="stylesheet"
+                            href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+                            />
+                            <div>
                             <!-- Prepare a container for your calendar. -->
                             <div class="calendar">
                                 <!-- Loading stuff -->
                                 Loading data ...
                             </div>
+                            <script>
+                                GitHubCalendar(".calendar", "jiyoungbkim", { responsive: true, tooltips: false, global_stats : true}).then(function() {
+                                    // delete the space underneath the module bar which is caused by minheight 
+                                    document.getElementsByClassName('calendar')[0].style.minHeight = "100px";
+                                    // hide more and less legen below the contribution graph
+                                    document.getElementsByClassName('contrib-legend')[0].style.display = "none";
+                                    // document.getElementsByClassName('contrib-number')[0].style.fontSize = "1rem";
+                                });
+                                GitHubCalendar(".calendar", "jiyoungbkim");
+                                // or enable responsive functionality:
+                                GitHubCalendar(".calendar", "jiyoungbkim", { responsive: true });
+                            </script>
                             <!-- <img src="assets/img/Github.png" width="100%">-->
                         </div>                    
                     <p class="lead mb-5"></p>
