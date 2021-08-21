@@ -44,7 +44,15 @@ Ajax / 초급
 Python / 초급
 - 기본 알고리즘, 자료구조 구현
 
+## 🏢 EXPERIENCE
+
+VANILLAPAZ 
+
+FrontEnd Engineer [2021.04 ~ Present]
+
+
 ## 🚢 PROJECT
+[SpAC9 FrontEnd] [프로젝트 기간 2021.04 ~ 2021.07]
 
 [Post Events](https://github.com/jiyoungbkim/PostEvents) [프로젝트 기간 2019.11 - 2019.12]
 
