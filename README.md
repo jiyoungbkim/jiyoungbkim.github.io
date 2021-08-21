@@ -2,6 +2,23 @@
 
 ## 🛠️ TECH SKILLS
 
+React / 중급
+- 재사용성 높은 컴포넌트 구현
+- 상태관리 with MobX
+- API호출하여 Data Binding
+- 탭메뉴, 슬라이드 메뉴, 모달팝업
+- 무한 스크롤, 페이지네이션
+
+HTML&CSS / 중급
+- styled component로 컴포넌트 구현
+- scss를 이용한 변수와 반복문 사용
+- 반응형 레이아웃
+
+JavaScript / 중급
+- 기본 알고리즘 구현
+- 이벤트 리스너 사용
+- 검색기능, 파일첨부
+
 Java / 초급
 - 기본 알고리즘, 자료구조 구현
 - DB연동하여 조회, 대여, 반납, 기록 시스템 구현
@@ -21,23 +38,21 @@ Spring Framework / 초급
 - MyBatis 연동
 - 커뮤니티 사이트 프로젝트 경험
 
-JavaScript / 초급
-- 기본 알고리즘 구현
-- 게시판 CRUD
-- 검색기능, 파일첨부
-
 Ajax / 초급
 - JOIN 페이지에서 ID 중복검사
-
-HTML&CSS / 초급
-- 기본 문법과 속성에 대한 이해
-- JSP view 페이지 구현
-- 디자인/레이아웃을 원하는 방향으로 수정
 
 Python / 초급
 - 기본 알고리즘, 자료구조 구현
 
+## 🏢 EXPERIENCE
+
+VANILLAPAZ 
+
+FrontEnd Engineer [2021.04 ~ Present]
+
+
 ## 🚢 PROJECT
+[SpAC9 FrontEnd] [프로젝트 기간 2021.04 ~ 2021.07]
 
 [Post Events](https://github.com/jiyoungbkim/PostEvents) [프로젝트 기간 2019.11 - 2019.12]
 
