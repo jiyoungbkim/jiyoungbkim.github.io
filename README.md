@@ -2,10 +2,15 @@
 
 ## 🛠️ TECH SKILLS
 
+Front-End Lead
+- 컴포넌트를 최대한 재사용 가능하게 만들어 반복되는 작업을 줄이고, 컴포넌트의 작성법과 속성들을 문서화하여 참고/사용할 수 있도록 하였습니다.
+- 코드 컨벤션을 정립하고, Routes/API 공통 파일을 만들고 예시를 정리하여 구성원들이 통일성 있는 코드를 작성할 수 있도록 하였습니다.
+- color, text, layout, media queries등의 공통 스타일은 라이브러리화 하여 전역적으로 스타일 적용이 가능하도록 하였습니다.
+
 React / 중급
 - 재사용성 높은 컴포넌트 구현
-- 상태관리 with MobX
-- API호출하여 Data Binding
+- 상태 관리 with MobX
+- API 호출하여 Data Binding
 - 탭메뉴, 슬라이드 메뉴, 모달팝업
 - 무한 스크롤, 페이지네이션
 
@@ -19,30 +24,6 @@ JavaScript / 중급
 - 이벤트 리스너 사용
 - 검색기능, 파일첨부
 
-Java / 초급
-- 기본 알고리즘, 자료구조 구현
-- DB연동하여 조회, 대여, 반납, 기록 시스템 구현
-- MVC Model 1 게시판 CRUD
-- MVC Model 2 게시판 Model, Service, Controller
-- 커뮤니티 사이트 프로젝트 경험
-
-Oracle SQL, MySQL / 초급
-- 복합 조건의 조회 쿼리문
-- 게시판 테이블 생성및 관리
-- mapper 사용
-- DB연동하여 커뮤니티 사이트 프로젝트 경험
-
-Spring Framework / 초급
-- Lombok 라이브러리 이용
-- Oracle Database 연동
-- MyBatis 연동
-- 커뮤니티 사이트 프로젝트 경험
-
-Ajax / 초급
-- JOIN 페이지에서 ID 중복검사
-
-Python / 초급
-- 기본 알고리즘, 자료구조 구현
 
 ## 🏢 EXPERIENCE
 
@@ -52,13 +33,19 @@ FrontEnd Engineer [2021.04 ~ Present]
 
 
 ## 🚢 PROJECT
-[SpAC9 FrontEnd] [프로젝트 기간 2021.04 ~ 2021.07]
+
+[RoWork - 아웃소싱 개발 프로세스 관리 Front-End Lead] [프로젝트 기간 2021.08 ~ Present] : REACT | MobX
+
+[RoWork - 이메일 수집 페이지](https://rowork.com/) [프로젝트 기간 2021.08] : REACT | Firebase | AWS SES
+
+[SpAC9 Front-End] [프로젝트 기간 2021.04 ~ 2021.07]
 
 [Post Events](https://github.com/jiyoungbkim/PostEvents) [프로젝트 기간 2019.11 - 2019.12]
 
 [Rowena Company](https://github.com/jiyoungbkim/RowenaCompany) [프로젝트 기간 2019.10 - 2019.11]
 
 [Buen Viaje](https://github.com/jiyoungbkim/BuenViaje) [프로젝트 기간 2018.10.17 - 2018.10.23]
+
 
 ## 🏫 EDUCATION
 
