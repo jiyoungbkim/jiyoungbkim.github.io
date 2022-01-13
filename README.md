@@ -8,19 +8,19 @@ Front-End Lead
 - color, text, layout, media queries등의 공통 스타일은 라이브러리화 하여 전역적으로 스타일 적용이 가능하도록 하였습니다.
 - 데스크탑 | 태블릿 | 모바일에서 여러 번의 사용 테스트를 통해 발견된 문제들을 해결하고 사용성을 높이기 위해 노력하고 있습니다.
 
-React / 중급
+React
 - 재사용성 높은 컴포넌트 구현
 - 상태 관리 with MobX
 - API 호출하여 Data Binding
 - 탭메뉴, 슬라이드 메뉴, 모달팝업
 - 무한 스크롤, 페이지네이션
 
-HTML&CSS / 중급
+HTML&CSS
 - styled component로 컴포넌트 구현
 - scss를 이용한 변수와 반복문 사용
 - 데스크탑 | 태블릿 | 모바일 반응형 레이아웃
 
-JavaScript / 중급
+JavaScript
 - 다양한 알고리즘 구현
 - 적절한 이벤트 리스너 사용과 최적화
 - 자동완성 추천, 스크롤 제어, 오토 리사이즈 적용
