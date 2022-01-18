@@ -18,7 +18,7 @@ React
 - 무한 스크롤, 페이지네이션
 
 HTML&CSS
-- styled component로 컴포넌트 구현
+- styled component로 조건부 스타일링
 - scss를 이용한 변수와 반복문 사용
 - 데스크탑 | 태블릿 | 모바일 반응형 레이아웃
 
