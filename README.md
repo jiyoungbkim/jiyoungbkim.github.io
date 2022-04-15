@@ -6,14 +6,15 @@ Front-End Lead
 - 컴포넌트를 최대한 재사용 가능하게 만들어 반복되는 작업을 줄이고, 컴포넌트의 작성법과 속성들을 문서화하여 참고/사용할 수 있도록 하였습니다.
 - 코드 컨벤션을 정립하고, Routes/API 공통 파일을 만들고 예시를 정리하여 구성원들이 통일성 있는 코드를 작성할 수 있도록 하였습니다.
 - color, text, layout, media queries등의 공통 스타일은 라이브러리화 하여 프로젝트 내에서 전역적으로 스타일 적용이 가능하도록 하였습니다.
-- 데스크탑 | 태블릿 | 모바일에서 여러 번의 사용 테스트를 통해 발견된 문제들을 해결하고 사용성을 높이기 위해 노력하고 있습니다.
+- 데스크탑 | 태블릿 | 모바일에서 여러 번의 사용 테스트를 통해 발견된 문제들을 해결하고 유저 사용성을 높이기 위해 노력하고 있습니다.
+- 에러 상태에 따른 적절한 에러 처리와 중앙 집중화된 API 에러 핸들링으로 에러 처리시의 반복 작업을 최소화 하였습니다.
 
 ## 🛠️ TECH SKILLS
 
 React
 - 재사용성 높은 컴포넌트 구현
 - 상태 관리 with MobX
-- API 호출하여 Data Binding
+- 라이프 사이클을 고려한 useEffect 제어와 정리
 - 탭메뉴, 슬라이드 메뉴, 모달팝업
 - 무한 스크롤, 페이지네이션
 
@@ -27,6 +28,10 @@ JavaScript
 - 적절한 이벤트 리스너 사용과 최적화
 - 자동완성 추천, 스크롤 제어, 오토 리사이즈 구현
 
+Deploy
+- AWS EC2 + PM2 + Nginx를 이용한 배포환경 설정
+- Github Actions를 이용한 배포 자동화
+
 
 ## 🏢 EXPERIENCE
 
@@ -37,9 +42,9 @@ Front-End Engineer [2021.04 ~ Present]
 
 ## 🚢 PROJECT
 
-[RoWork - 아웃소싱 개발 프로세스 관리 Front-End Lead] [프로젝트 기간 2021.08 ~ Present] : REACT | MobX
+[RoWork - 아웃소싱 개발 프로세스 관리 Front-End Lead](https://rowork.com/) [프로젝트 기간 2021.08 ~ Present] : REACT | MobX
 
-[RoWork - 이메일 수집 페이지](https://rowork.com/) [프로젝트 기간 2021.08] : REACT | Firebase | AWS SES
+[RoWork - 이메일 수집 페이지] [프로젝트 기간 2021.08] : REACT | Firebase | AWS SES
 
 [SpAC9 Front-End] [프로젝트 기간 2021.04 ~ 2021.07] : REACT | MobX
 
