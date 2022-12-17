@@ -3,6 +3,7 @@
 ## 🚀 POSITION SKILLS
 
 Front-End Lead
+
 - 컴포넌트를 최대한 재사용 가능하게 만들어 반복되는 작업을 줄이고, 컴포넌트의 작성법과 속성들을 문서화하여 참고/사용할 수 있도록 하였습니다.
 - 코드 컨벤션을 정립하고, Routes/API 공통 파일을 만들고 예시를 정리하여 구성원들이 통일성 있는 코드를 작성할 수 있도록 하였습니다.
 - color, text, layout, media queries등의 공통 스타일은 라이브러리화 하여 프로젝트 내에서 전역적으로 스타일 적용이 가능하도록 하였습니다.
@@ -12,33 +13,35 @@ Front-End Lead
 ## 🛠️ TECH SKILLS
 
 React
+
 - 재사용성 높은 컴포넌트 구현
 - 상태 관리 with MobX
 - 라이프 사이클을 고려한 useEffect 제어와 정리
 - 탭메뉴, 슬라이드 메뉴, 모달팝업
 - 무한 스크롤, 페이지네이션
 
-HTML&CSS
+MarkUp
+
 - styled component로 조건부 스타일링
 - scss를 이용한 변수와 반복문 사용
 - 데스크탑 | 태블릿 | 모바일 반응형 레이아웃
 
 JavaScript
+
 - 다양한 알고리즘 구현
 - 적절한 이벤트 리스너 사용과 최적화
 - 자동완성 추천, 스크롤 제어, 오토 리사이즈 구현
 
 Deploy
+
 - AWS EC2 + PM2 + Nginx를 이용한 배포환경 설정
 - Github Actions를 이용한 배포 자동화
 
-
 ## 🏢 EXPERIENCE
 
-VANILLAPAZ 
+(주)로워크
 
 Front-End Engineer [2021.04 ~ Present]
-
 
 ## 🚢 PROJECT
 
@@ -53,7 +56,6 @@ Front-End Engineer [2021.04 ~ Present]
 [Rowena Company](https://github.com/jiyoungbkim/RowenaCompany) [프로젝트 기간 2019.10 - 2019.11]
 
 [Buen Viaje](https://github.com/jiyoungbkim/BuenViaje) [프로젝트 기간 2018.10.17 - 2018.10.23]
-
 
 ## 🏫 EDUCATION
 
